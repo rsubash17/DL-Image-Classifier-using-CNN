@@ -152,8 +152,8 @@ def test_model(model, test_loader):
   plt.title("Confusion Matrix")
   plt.show()
 
-  print("Name: YOGESH.S")
-  print("Reg.no: 212224230311")
+  print("Name: SUBASH R")
+  print("Reg.no: 212223230218")
   print("Classification Report:")
   print(classification_report(all_labels, all_preds, target_names=[str(i) for i in range(10)]))
 test_model(model, test_loader)
